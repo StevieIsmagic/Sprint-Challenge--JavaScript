@@ -42,6 +42,19 @@ const flatten = elements => {
   // Example: flatten([1, [2], [3, [[4]]]]); => [1, 2, 3, 4];
 };
 
+// function outerParent(name) {
+//   console.log('hii inside parent');
+//   let color = 'pink';
+
+//   function innerChild(flower) {
+//     console.log(`${name} loves ${color} + ${flower}`);
+//   }
+//   return innerChild;
+// }
+// let me = outerParent('stevie');
+// console.log(me);
+// console.log(me('daisy'));
+
 module.exports = {
   each,
   map,
@@ -49,5 +62,5 @@ module.exports = {
   cacheFunction,
   reverseStr,
   checkMatchingLeaves,
-  flatten,
+  flatten
 };
